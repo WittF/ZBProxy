@@ -20,7 +20,7 @@ RUN apk add --no-cache git \
             "Minecraft": {\
                 "EnableHostnameRewrite": true,\
                 "OnlineCount": {\
-                    "Max": 114514,\
+                    "Max": 666,\
                     "Online": -1,\
                     "EnableMaxLimit": false\
                 },\
@@ -29,7 +29,7 @@ RUN apk add --no-cache git \
                 },\
                 "AnyDestSettings": {},\
                 "MotdFavicon": "{DEFAULT_MOTD}",\
-                "MotdDescription": "§d{NAME}§e service is working on §a§o{INFO}§r§c§lProxy for §6§n{HOST}:{PORT}§r" \
+                "MotdDescription": "§d{NAME}§e service is working§r§c§lProxy for §6§n{HOST}:{PORT}§r" \
             },\
             "TLSSniffing": {\
                 "RejectNonTLS": false\
